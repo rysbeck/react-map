@@ -1,0 +1,20 @@
+.accordion{
+    height: fit-content;
+    width: 60%;
+    border: 2px solid black;
+    background: rgba(0,0,0,0.5);
+    &-title{
+        margin: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        background: yellow;
+        .title-sign{
+            margin: 20px;
+            transition: 0.5s ease-in;
+        }
+    }
+    
+}
